@@ -2,7 +2,7 @@ from openai import OpenAI
 
 
 client = OpenAI(
-    api_key="sk-7ceb2d65728a4e278332a8cf940f7003",
+    api_key="",
     base_url="https://api.deepseek.com"
 )
 
@@ -24,7 +24,7 @@ selected_chunk = chunks[0]
 
 #context = "Transformer 是一种用于处理序列数据的模型结构，广泛应用于自然语言处理任务。"
 
-question = "这段的核心思想是什么？"
+question = "这段的核心思想是什么？" #这是你问大模型的问题，然后他会去找相关知识回答
 
 response = client.chat.completions.create(
     model="deepseek-chat",
