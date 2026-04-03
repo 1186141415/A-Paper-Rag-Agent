@@ -4,23 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="320e809b-9419-4661-8bfa-1e8168133cf4" name="更改" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="320e809b-9419-4661-8bfa-1e8168133cf4" name="更改" comment="从0实现一个最简单RAG系统">
+      <change afterPath="$PROJECT_DIR$/4Chunk策略和Prompt工程.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5引入Rerank模型提升检索质量.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_1server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_2app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_3server_old.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_4test_app.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day5.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/day6.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/day6_2.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/day7.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/day8.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/draft" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server_old.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day2.py" beforeDir="false" afterPath="$PROJECT_DIR$/2文本切片.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day3.py" beforeDir="false" afterPath="$PROJECT_DIR$/3RAG优化.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/1从0实现一个最简RAG系统.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +110,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="day4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="4Chunk策略和Prompt工程" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="A-Paper-Rag-Agent" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,7 +124,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day4.py" />
+      <option name="SCRIPT_NAME" value="D:\A-Paper-Rag-Agent\4Chunk策略和Prompt工程.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,7 +135,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.day4" />
+        <item itemvalue="Python.4Chunk策略和Prompt工程" />
         <item itemvalue="Python.3RAG优化" />
       </list>
     </recent_temporary>
@@ -160,7 +158,7 @@
       <workItem from="1774507700629" duration="617000" />
       <workItem from="1774508326518" duration="21491000" />
       <workItem from="1774946323612" duration="4037000" />
-      <workItem from="1774950461465" duration="28285000" />
+      <workItem from="1774950461465" duration="35566000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -170,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774508223028</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="从0实现一个最简单RAG系统">
+      <option name="closed" value="true" />
+      <created>1775144096255</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1775144096255</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,13 +195,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="从0实现一个最简单RAG系统" />
+    <option name="LAST_COMMIT_MESSAGE" value="从0实现一个最简单RAG系统" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/day5.py</url>
+          <url>file://$PROJECT_DIR$/5引入Rerank模型提升检索质量.py</url>
           <line>25</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
