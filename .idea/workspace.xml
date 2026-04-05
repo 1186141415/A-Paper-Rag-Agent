@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="320e809b-9419-4661-8bfa-1e8168133cf4" name="更改" comment="RAG召回不准怎么办？Chunk策略+Prompt工程+引入Rerank提升检索质量+Top_k策略">
-      <change afterPath="$PROJECT_DIR$/6封装.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6封装基础上2次优化.py" afterDir="false" />
+    <list default="true" id="320e809b-9419-4661-8bfa-1e8168133cf4" name="更改" comment="RAG系统重构实战：类封装、参数化设计与工程化升级">
+      <change afterPath="$PROJECT_DIR$/10app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7多文档RAG.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/9_1server.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/9_2app.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/9_3server_old.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/9_4test_app.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day7.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/day8.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/draft" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/server.py" afterDir="false" />
@@ -156,7 +156,7 @@
       <workItem from="1774507700629" duration="617000" />
       <workItem from="1774508326518" duration="21491000" />
       <workItem from="1774946323612" duration="4037000" />
-      <workItem from="1774950461465" duration="43584000" />
+      <workItem from="1774950461465" duration="50155000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -182,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775208159642</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="RAG系统重构实战：类封装、参数化设计与工程化升级">
+      <option name="closed" value="true" />
+      <created>1775373113175</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1775373113175</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +211,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="从0实现一个最简单RAG系统" />
     <MESSAGE value="RAG召回不准怎么办？Chunk策略+Prompt工程+引入Rerank提升检索质量+Top_k策略" />
-    <option name="LAST_COMMIT_MESSAGE" value="RAG召回不准怎么办？Chunk策略+Prompt工程+引入Rerank提升检索质量+Top_k策略" />
+    <MESSAGE value="RAG系统重构实战：类封装、参数化设计与工程化升级" />
+    <option name="LAST_COMMIT_MESSAGE" value="RAG系统重构实战：类封装、参数化设计与工程化升级" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -219,7 +228,7 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/day7.py</url>
+          <url>file://$PROJECT_DIR$/7多文档RAG.py</url>
           <line>150</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
