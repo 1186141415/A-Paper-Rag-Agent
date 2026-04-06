@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="320e809b-9419-4661-8bfa-1e8168133cf4" name="更改" comment="RAG系统重构实战：类封装、参数化设计与工程化升级">
+    <list default="true" id="320e809b-9419-4661-8bfa-1e8168133cf4" name="更改" comment="RAG系统进阶：PDF论文解析、文本清洗与API服务化（FastAPI）完整实践">
       <change afterPath="$PROJECT_DIR$/10app.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/10server.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/11app.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/11server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8支持PDF论文解析与问答的系统实现.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9API化app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9API化server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_3server_old.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9_4test_app.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/draft" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/rag_project/.env" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/rag_project/app.py" afterDir="false" />
@@ -164,7 +159,7 @@
       <workItem from="1774507700629" duration="617000" />
       <workItem from="1774508326518" duration="21491000" />
       <workItem from="1774946323612" duration="4037000" />
-      <workItem from="1774950461465" duration="60506000" />
+      <workItem from="1774950461465" duration="65742000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -206,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775380431461</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="RAG系统进阶：PDF论文解析、文本清洗与API服务化（FastAPI）完整实践">
+      <option name="closed" value="true" />
+      <created>1775466089167</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1775466089167</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +231,8 @@
     <MESSAGE value="从0实现一个最简单RAG系统" />
     <MESSAGE value="RAG召回不准怎么办？Chunk策略+Prompt工程+引入Rerank提升检索质量+Top_k策略" />
     <MESSAGE value="RAG系统重构实战：类封装、参数化设计与工程化升级" />
-    <option name="LAST_COMMIT_MESSAGE" value="RAG系统重构实战：类封装、参数化设计与工程化升级" />
+    <MESSAGE value="RAG系统进阶：PDF论文解析、文本清洗与API服务化（FastAPI）完整实践" />
+    <option name="LAST_COMMIT_MESSAGE" value="RAG系统进阶：PDF论文解析、文本清洗与API服务化（FastAPI）完整实践" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
