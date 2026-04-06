@@ -4,20 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="320e809b-9419-4661-8bfa-1e8168133cf4" name="更改" comment="RAG系统进阶：PDF论文解析、文本清洗与API服务化（FastAPI）完整实践">
-      <change afterPath="$PROJECT_DIR$/10app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10server.py" afterDir="false" />
+    <list default="true" id="320e809b-9419-4661-8bfa-1e8168133cf4" name="更改" comment="RAG系统升级迈向智能体：对话记忆、多轮上下文管理">
       <change afterPath="$PROJECT_DIR$/11app.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/11server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/draft" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rag_project/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rag_project/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rag_project/data/Paper1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rag_project/data/Paper2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rag_project/data_loader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rag_project/llm_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rag_project/rag_system.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rag_project/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RagAgent/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RagAgent/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RagAgent/data/Paper1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RagAgent/data/Paper2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RagAgent/data_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RagAgent/llm_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RagAgent/rag_system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RagAgent/server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -159,7 +156,7 @@
       <workItem from="1774507700629" duration="617000" />
       <workItem from="1774508326518" duration="21491000" />
       <workItem from="1774946323612" duration="4037000" />
-      <workItem from="1774950461465" duration="65742000" />
+      <workItem from="1774950461465" duration="68047000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -209,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775466089167</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="RAG系统升级迈向智能体：对话记忆、多轮上下文管理">
+      <option name="closed" value="true" />
+      <created>1775481800909</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1775481800909</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +237,8 @@
     <MESSAGE value="RAG召回不准怎么办？Chunk策略+Prompt工程+引入Rerank提升检索质量+Top_k策略" />
     <MESSAGE value="RAG系统重构实战：类封装、参数化设计与工程化升级" />
     <MESSAGE value="RAG系统进阶：PDF论文解析、文本清洗与API服务化（FastAPI）完整实践" />
-    <option name="LAST_COMMIT_MESSAGE" value="RAG系统进阶：PDF论文解析、文本清洗与API服务化（FastAPI）完整实践" />
+    <MESSAGE value="RAG系统升级迈向智能体：对话记忆、多轮上下文管理" />
+    <option name="LAST_COMMIT_MESSAGE" value="RAG系统升级迈向智能体：对话记忆、多轮上下文管理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
