@@ -4,27 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="320e809b-9419-4661-8bfa-1e8168133cf4" name="更改" comment="构建可维护的RAG系统：代码分层与模块化设计">
+    <list default="true" id="320e809b-9419-4661-8bfa-1e8168133cf4" name="更改" comment="13.Agent 进阶实践：基于 Planner-Executor-Responder 的多步决策系统实现">
       <change afterPath="$PROJECT_DIR$/12RagAgent/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12RagAgent/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12RagAgent/data/Paper1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12RagAgent/data/Paper2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12RagAgent/data_loader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12RagAgent/llm_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12RagAgent/rag_system.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12RagAgent/tools.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/13RagAgent/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13RagAgent/agent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13RagAgent/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13RagAgent/data/Paper1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13RagAgent/data/Paper2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13RagAgent/data_loader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13RagAgent/llm_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13RagAgent/rag_system.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13RagAgent/tools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14RagAgent/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14RagAgent/agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14RagAgent/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14RagAgent/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14RagAgent/data/Paper1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14RagAgent/data/Paper2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14RagAgent/data_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14RagAgent/llm_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14RagAgent/logger_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14RagAgent/rag_system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14RagAgent/tools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14RagAgentrow/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14RagAgentrow/agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14RagAgentrow/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14RagAgentrow/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14RagAgentrow/data/Paper1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14RagAgentrow/data/Paper2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14RagAgentrow/data_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14RagAgentrow/llm_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14RagAgentrow/logger_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14RagAgentrow/rag_system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14RagAgentrow/tools.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/RagAgent/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RagAgent/rag_system.py" beforeDir="false" afterPath="$PROJECT_DIR$/12RagAgent/agent.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,38 +68,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python._base_client.executor": "Debug",
-    "Python.day3.executor": "Debug",
-    "Python.day4.executor": "Debug",
-    "Python.day5.executor": "Debug",
-    "Python.day6_2.executor": "Debug",
-    "Python.day8.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/A-Paper-Rag-Agent",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.python.group.settings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python._base_client.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.day3.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.day4.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.day5.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.day6_2.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.day8.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/A-Paper-Rag-Agent&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.python.group.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\A-Paper-Rag-Agent" />
       <recent name="D:\A-Paper-Rag-Agent\rag_project" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.3RAG优化">
     <configuration name="3RAG优化" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="A-Paper-Rag-Agent" />
       <option name="ENV_FILES" value="" />
@@ -165,7 +171,8 @@
       <workItem from="1774507700629" duration="617000" />
       <workItem from="1774508326518" duration="21491000" />
       <workItem from="1774946323612" duration="4037000" />
-      <workItem from="1774950461465" duration="95929000" />
+      <workItem from="1774950461465" duration="102924000" />
+      <workItem from="1775737174847" duration="3116000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -239,7 +246,23 @@
       <option name="project" value="LOCAL" />
       <updated>1775547251008</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="12多工具Agent设计：工具注册、选择机制与执行流程解析">
+      <option name="closed" value="true" />
+      <created>1775721866051</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1775721866051</updated>
+    </task>
+    <task id="LOCAL-00011" summary="13.Agent 进阶实践：基于 Planner-Executor-Responder 的多步决策系统实现">
+      <option name="closed" value="true" />
+      <created>1775722034033</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1775722034033</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +288,9 @@
     <MESSAGE value="RAG系统升级迈向智能体：对话记忆、多轮上下文管理" />
     <MESSAGE value="Router Agent" />
     <MESSAGE value="构建可维护的RAG系统：代码分层与模块化设计" />
-    <option name="LAST_COMMIT_MESSAGE" value="构建可维护的RAG系统：代码分层与模块化设计" />
+    <MESSAGE value="12多工具Agent设计：工具注册、选择机制与执行流程解析" />
+    <MESSAGE value="13.Agent 进阶实践：基于 Planner-Executor-Responder 的多步决策系统实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="13.Agent 进阶实践：基于 Planner-Executor-Responder 的多步决策系统实现" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
