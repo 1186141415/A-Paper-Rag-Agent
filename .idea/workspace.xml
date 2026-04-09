@@ -4,24 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="320e809b-9419-4661-8bfa-1e8168133cf4" name="更改" comment="Router Agent">
+    <list default="true" id="320e809b-9419-4661-8bfa-1e8168133cf4" name="更改" comment="构建可维护的RAG系统：代码分层与模块化设计">
+      <change afterPath="$PROJECT_DIR$/12RagAgent/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12RagAgent/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12RagAgent/data/Paper1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12RagAgent/data/Paper2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12RagAgent/data_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12RagAgent/llm_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12RagAgent/rag_system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12RagAgent/tools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13RagAgent/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13RagAgent/agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13RagAgent/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13RagAgent/data/Paper1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13RagAgent/data/Paper2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13RagAgent/data_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13RagAgent/llm_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13RagAgent/rag_system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13RagAgent/tools.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/RagAgent/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RagAgent/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RagAgent/data/Paper1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RagAgent/data/Paper2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RagAgent/data_loader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RagAgent/llm_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RagAgent/rag_system.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RagAgent/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RagAgent12/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RagAgent12/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RagAgent12/data/Paper1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RagAgent12/data/Paper2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RagAgent12/data_loader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RagAgent12/llm_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RagAgent12/rag_system.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RagAgent12/server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RagAgent/rag_system.py" beforeDir="false" afterPath="$PROJECT_DIR$/12RagAgent/agent.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +165,7 @@
       <workItem from="1774507700629" duration="617000" />
       <workItem from="1774508326518" duration="21491000" />
       <workItem from="1774946323612" duration="4037000" />
-      <workItem from="1774950461465" duration="72146000" />
+      <workItem from="1774950461465" duration="95929000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -228,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775487340637</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="构建可维护的RAG系统：代码分层与模块化设计">
+      <option name="closed" value="true" />
+      <created>1775547251008</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1775547251008</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +264,8 @@
     <MESSAGE value="RAG系统进阶：PDF论文解析、文本清洗与API服务化（FastAPI）完整实践" />
     <MESSAGE value="RAG系统升级迈向智能体：对话记忆、多轮上下文管理" />
     <MESSAGE value="Router Agent" />
-    <option name="LAST_COMMIT_MESSAGE" value="Router Agent" />
+    <MESSAGE value="构建可维护的RAG系统：代码分层与模块化设计" />
+    <option name="LAST_COMMIT_MESSAGE" value="构建可维护的RAG系统：代码分层与模块化设计" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
