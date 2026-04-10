@@ -4,31 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="320e809b-9419-4661-8bfa-1e8168133cf4" name="更改" comment="13.Agent 进阶实践：基于 Planner-Executor-Responder 的多步决策系统实现">
+    <list default="true" id="320e809b-9419-4661-8bfa-1e8168133cf4" name="更改" comment="从Demo到工程：RAG/Agent系统的日志、配置与异常处理">
       <change afterPath="$PROJECT_DIR$/12RagAgent/.env" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/13RagAgent/.env" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/14RagAgent/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14RagAgent/agent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14RagAgent/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14RagAgent/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14RagAgent/data/Paper1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14RagAgent/data/Paper2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14RagAgent/data_loader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14RagAgent/llm_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14RagAgent/logger_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14RagAgent/rag_system.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14RagAgent/tools.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/14RagAgentrow/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14RagAgentrow/agent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14RagAgentrow/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14RagAgentrow/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14RagAgentrow/data/Paper1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14RagAgentrow/data/Paper2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14RagAgentrow/data_loader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14RagAgentrow/llm_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14RagAgentrow/logger_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14RagAgentrow/rag_system.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14RagAgentrow/tools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15RagAgent/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15RagAgent/agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15RagAgent/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15RagAgent/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15RagAgent/data/Paper1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15RagAgent/data/Paper2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15RagAgent/data_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15RagAgent/llm_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15RagAgent/logger_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15RagAgent/rag_system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15RagAgent/session_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15RagAgent/tools.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/RagAgent/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -99,60 +91,6 @@
       <recent name="D:\A-Paper-Rag-Agent\rag_project" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.3RAG优化">
-    <configuration name="3RAG优化" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="A-Paper-Rag-Agent" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\A-Paper-Rag-Agent\3RAG优化.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="4Chunk策略和Prompt工程" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="A-Paper-Rag-Agent" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\A-Paper-Rag-Agent\4Chunk策略和Prompt工程.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.4Chunk策略和Prompt工程" />
-        <item itemvalue="Python.3RAG优化" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -172,7 +110,8 @@
       <workItem from="1774508326518" duration="21491000" />
       <workItem from="1774946323612" duration="4037000" />
       <workItem from="1774950461465" duration="102924000" />
-      <workItem from="1775737174847" duration="3116000" />
+      <workItem from="1775737174847" duration="4146000" />
+      <workItem from="1775783157660" duration="13042000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -262,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775722034033</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="从Demo到工程：RAG/Agent系统的日志、配置与异常处理">
+      <option name="closed" value="true" />
+      <created>1775741038837</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1775741038837</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +237,8 @@
     <MESSAGE value="构建可维护的RAG系统：代码分层与模块化设计" />
     <MESSAGE value="12多工具Agent设计：工具注册、选择机制与执行流程解析" />
     <MESSAGE value="13.Agent 进阶实践：基于 Planner-Executor-Responder 的多步决策系统实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="13.Agent 进阶实践：基于 Planner-Executor-Responder 的多步决策系统实现" />
+    <MESSAGE value="从Demo到工程：RAG/Agent系统的日志、配置与异常处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="从Demo到工程：RAG/Agent系统的日志、配置与异常处理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
