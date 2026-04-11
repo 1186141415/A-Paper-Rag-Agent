@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="320e809b-9419-4661-8bfa-1e8168133cf4" name="更改" comment="从Demo到工程：RAG/Agent系统的日志、配置与异常处理">
-      <change afterPath="$PROJECT_DIR$/12RagAgent/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13RagAgent/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14RagAgent/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14RagAgentrow/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15RagAgent/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15RagAgent/agent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15RagAgent/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15RagAgent/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15RagAgent/data/Paper1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15RagAgent/data/Paper2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15RagAgent/data_loader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15RagAgent/llm_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15RagAgent/logger_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15RagAgent/rag_system.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15RagAgent/session_manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/15RagAgent/tools.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RagAgent/.env" afterDir="false" />
+    <list default="true" id="320e809b-9419-4661-8bfa-1e8168133cf4" name="更改" comment="RAG/Agent系统升级：基于session的会话状态管理与多轮对话隔离">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +94,10 @@
       <workItem from="1774946323612" duration="4037000" />
       <workItem from="1774950461465" duration="102924000" />
       <workItem from="1775737174847" duration="4146000" />
-      <workItem from="1775783157660" duration="13042000" />
+      <workItem from="1775783157660" duration="13911000" />
+      <workItem from="1775826404602" duration="151000" />
+      <workItem from="1775873772163" duration="782000" />
+      <workItem from="1775889984028" duration="1117000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -209,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775741038837</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="RAG/Agent系统升级：基于session的会话状态管理与多轮对话隔离">
+      <option name="closed" value="true" />
+      <created>1775807617566</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1775807617566</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +232,8 @@
     <MESSAGE value="12多工具Agent设计：工具注册、选择机制与执行流程解析" />
     <MESSAGE value="13.Agent 进阶实践：基于 Planner-Executor-Responder 的多步决策系统实现" />
     <MESSAGE value="从Demo到工程：RAG/Agent系统的日志、配置与异常处理" />
-    <option name="LAST_COMMIT_MESSAGE" value="从Demo到工程：RAG/Agent系统的日志、配置与异常处理" />
+    <MESSAGE value="RAG/Agent系统升级：基于session的会话状态管理与多轮对话隔离" />
+    <option name="LAST_COMMIT_MESSAGE" value="RAG/Agent系统升级：基于session的会话状态管理与多轮对话隔离" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
